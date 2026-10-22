@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Minji's iPhone</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="phone">
+    <div id="screen">
+      <div id="wall"></div>
+
+      <div id="homeL"></div>
+      <div id="appL"></div>
+
+      <div id="lockL">
+        <div id="lkc"></div>
+        <div id="pinL" style="display:none"></div>
+      </div>
+
+      <div id="ov"></div>
+
+      <div id="sb">
+        <span id="sbt">9:41</span>
+        <button id="sbk" type="button"></button>
+        <div id="island"><span class="ia"></span></div>
+        <span class="sb-icons" aria-hidden="true">
+          <svg class="sb-ic" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="7" width="3" height="5" rx="1"/><rect x="5" y="5" width="3" height="7" rx="1"/><rect x="10" y="2.5" width="3" height="9.5" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1" opacity=".35"/></svg>
+          <svg class="sb-ic" viewBox="0 0 16 12" fill="currentColor"><path d="M8 10.6a1.7 1.7 0 1 1 0 3.4 1.7 1.7 0 0 1 0-3.4Z" transform="translate(0 -2)"/><path d="M8 7.2c1.5 0 2.9.6 3.9 1.6l-1.5 1.5A3.4 3.4 0 0 0 8 9.6c-.9 0-1.8.3-2.4.8L4.1 8.8A5.9 5.9 0 0 1 8 7.2ZM8 3.4c2.6 0 5 1 6.9 2.7L13.4 7.6A7.8 7.8 0 0 0 8 5.5c-2 0-3.9.8-5.4 2.1L1.1 6.1A10.4 10.4 0 0 1 8 3.4Z" transform="translate(0 -1)"/></svg>
+          <svg class="sb-batt" viewBox="0 0 27 12" fill="none"><rect x=".5" y=".5" width="22" height="11" rx="3.5" stroke="currentColor" opacity=".45"/><rect x="2" y="2" width="15" height="8" rx="2" fill="currentColor"/><path d="M24.5 4v4a2.2 2.2 0 0 0 0-4Z" fill="currentColor" opacity=".45"/></svg>
+        </span>
+      </div>
+
+      <div id="hb"><i></i></div>
+    </div>
+    <audio id="player" preload="metadata"></audio>
+  </div>
+<script>window.LANG=localStorage.getItem('wb-lang')||'id'</script>
+<script src="i18n.js"></script>
+<script src="data.js"></script>
+<script src="glue.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
