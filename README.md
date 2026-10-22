@@ -7,7 +7,7 @@ An interactive iPhone simulation with a playable KakaoTalk-style chat story: you
 ## How to play
 
 1. Open the site and swipe up on the lock screen.
-2. Enter the passcode **1121**.
+2. Enter the passcode **1919**.
 3. Open **KakaoTalk** and read the chat with Juhoon — stay on the page: he messages you live (~40 seconds in), and the story builds toward his call (around the 4- and 6.5-minute marks).
 4. Explore the other apps too: Notes (Minji's diary), Photos, Instagram (@juhoon), Music, Maps, Calendar, Mail, and Settings.
 
